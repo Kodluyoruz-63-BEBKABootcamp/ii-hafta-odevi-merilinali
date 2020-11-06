@@ -1,4 +1,4 @@
-###### Yeni bir Gitthub repository oluştururken, repomuza ekleyebileceğimiz lisanslar nelerdir, bu lisanslar arasındaki farklar nelerdir?
+##### Yeni bir Gitthub repository oluştururken, repomuza ekleyebileceğimiz lisanslar nelerdir, bu lisanslar arasındaki farklar nelerdir?
 
 **MIT:** Dünya üzerinde en yaygın kullanılan, Massachusetts Teknoloji Enstitüsü tarafından geliştirilmiş, işlevsel bir lisans türüdür. MIT Lisansı ile yazılıma ait kaynak kodlar hem yazılımı imal edenler hem de açık kaynak kodlara erişerek yazılımı geliştirenler tarafından istenildiği ölçüde değiştirilebilir, yeni versiyonları geliştirilebilir, kopyalanabilir, satılabilir, yayılabilir, alt lisanslama yapılabilir ve dağıtılabilir. Yazılımın tüm kopyalarına ve önemli parçalarına eklenmesi gereken aşağıdaki MIT Lisans Metni incelendiğinde de görülecektir ki, yazılımı imal eden, geliştiren veya sair şekilde yazılımı kullanan tarafların hiçbir hukuki sorumluluğu bulunmamaktadır.
 
@@ -6,12 +6,12 @@
 
 **GNU:** GNU yada Genel Kamu Lisansı olarak adlandırılan bu lisans sayısız yazılım ve dağıtımın içerisinde kullanılan özgür bir lisans türüdür. Bu lisans türünde hem kullanıcılar hem de yayıncılar için bazı çeşitli özgürlükler tanınmıştır. GNU lisansıyla korunan yazılımlar başkaları tarafından değiştirilebilir ve nasıl çalıştığı anlaşılmak için görülebilir yazılımlardır. GNU lisansı özellikle insanları program geliştirmeye ve tamamen özgür programlardan oluşan bir bilgisayar dünyası oluşturmaya yönelik atılmış bir adımdır.
 
-###### Merge- Squash- Rebase arasındaki farklar nelerdir?
+##### Merge- Squash- Rebase arasındaki farklar nelerdir?
 **Git merge** ile yaptığımız birleştirmede yeni bir commit yaratacak ve yeni branch'deki tüm history tarafını kaybetmeden birleştirme işlemi gerçekleşmiş olcaktır.
 **Git squash** komutu aslında farklı bir rebase kullanımı olarak değerlendirmek daha doğru olacaktır. Geçmişte atılan commit'leri yeniden düzenlemek, isimlendirmek veya birleştirmek için kullanıyoruz.
 **Git rebase** ile birleştirdiğimizde ise branch deki commit'lerimizi tek tek alıp istediğmiz branch üzerine ekleyecektir. Böylelikle tek bir history oluşturacak ve istenmeyen history ortadan kalkacaktır.
 
-###### Agile-Scrum-Kanban kavramlarını araştırınız
+##### Agile-Scrum-Kanban kavramlarını araştırınız
 **Agile** metodu, yapılacak işlerin önem sırasına göre yapılması gerektiğini öne sürer. Bu metodolojiye göre projenin en iyi şekilde ortaya konulması için kaynaklar ve ekip özenli bir hazırlık süreci geçirmelidir. Agile metodunun temel esasları şöyle sıralanabilir:
 - Deneysellik
 - Önceliklendirme
@@ -29,7 +29,7 @@ Agile yöntemi, bu esaslardan birini atlayarak yönetilen bir projenin başarıs
 
 **Kanban**, bir süreçten geçerken işi yönetmek için malzeme hareketlerinin kontrolü amacıyla kullanılan ve çizelgelerden oluşan görsel bir sistemdir. Kanban hem süreci (iş akışı) hem de o süreçten geçen gerçek işi görselleştirir. Kanban'ın amacı, sürecinizdeki aksaklıkları tanımlamak ve bunları düzeltmektir, böylece iş en uygun hızda veya verimde gerçekleşebilir. 
 
-###### Github Flow'un alternatifleri nelerdir? Artılarını ve eksilerini karşılaştırınız.Github Flow'un alternatifleri nelerdir? Artılarını ve eksilerini karşılaştırınız.
+##### Github Flow'un alternatifleri nelerdir? Artılarını ve eksilerini karşılaştırınız.Github Flow'un alternatifleri nelerdir? Artılarını ve eksilerini karşılaştırınız.
 - Git
 - pre-commit
 - Atlassian Stash
@@ -39,13 +39,13 @@ Agile yöntemi, bu esaslardan birini atlayarak yönetilen bir projenin başarıs
 - GVFS
 - pre-commit by Yelp
 
-###### Gang of Four(GOF) araştırınız.
+##### Gang of Four(GOF) araştırınız.
 **Gang of Four** topluluğu tarafından yayınlanan tasarım desenleri, Nesne Yönelimli Programlamada karşılaşılmış tasarım sorunlarına üretilmiş optimum  çözümler olarak tanımlanabilir. Tasarım desenleri bizlere daha yönetilebilir ve okunabilir kod yazmak konusunda avantajlar sağlar. Bunun yanında performans ve geliştirilebilirlik konusunda da katkıları vardır. Tasarım desenleri genel olarak 3 başlık altında toplanır. Bunlar;
 **Creational Patterns-Kurucu Desenler:** Nesnelerin oluşturulması ile ilgili patternlerdir.
 **Structural Patterns – Yapısal Desenler:** Nesnelerin birbiri ile olan ilişkisini konu alır.
 **Behavioral Patterns – Davranışsal Desenler:** Sınıfların bir görevi yerine getirirken nasıl davranacağı ile ilgili desenlerdir.
 
-###### Interface ve Abstract sınıflar arasındaki farklar nelerdir?
+##### Interface ve Abstract sınıflar arasındaki farklar nelerdir?
 **Abstract:**
 Yazdığımız sınıflar arasında inheritance(kalıtım) uygularken kullanırız. Alt sınıflar abstractsınıfı inherit alırlar. Abstract class içindeki implement edilmiş tüm method’lar diğer class'da da geçerlidir.
 
